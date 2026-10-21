@@ -1,0 +1,32 @@
+
+# Playwright
+node_modules/
+/test-results/
+/playwright-report/
+/blob-report/
+/playwright/.cache/
+/playwright/.auth/
+/.playwright-mcp/
+
+# Local environment and credentials
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+
+# Generated reports and build output
+/coverage/
+/dist/
+/build/
+
+# Logs and local operating system/editor files
+*.log
+.DS_Store
+Thumbs.db
+.idea/
+.history/
+*.swp
+*.swo
